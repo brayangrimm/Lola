@@ -16,7 +16,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, event, usersData, threadsData, args, api }) {
-    const adminIDs = ["100080355760429", "6", ""];
+    const adminIDs = ["61578281565957", "6", ""];
     const senderID = event.senderID;
 
     if (!adminIDs.includes(senderID)) {
@@ -27,7 +27,7 @@ module.exports = {
 
     if (!action) {
       return message.reply(
-        `👑 **PANEL ADMIN - Evariste**\nChoisis une action :\n\n` +
+        `👑 **PANEL ADMIN - brayan**\nChoisis une action :\n\n` +
         `1. 💰 Voir le solde d'un utilisateur\n` +
         `2. ➕ Ajouter de l'argent à un utilisateur\n` +
         `3. 🔁 Réinitialiser les streaks 'motrapide'\n` +
