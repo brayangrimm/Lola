@@ -45,7 +45,7 @@ module.exports = {
   config: {
     name: "help",
     version: "1.24",
-    author: "和.ꜛටිOMBRA く愛 ",
+    author: "和.ᏰᏒᎯᎽᎯᏁく愛 ",
     countDown: 5,
     role: 0,
     shortDescription: { en: "View command usage and list all commands directly" },
